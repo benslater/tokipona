@@ -1,0 +1,29 @@
+.lesson-link {
+  height: 100%;
+  width: 100%;
+  color: #eee;
+  cursor: inherit;
+  text-decoration: none;
+}
+
+.lesson-button {
+  height: 50px;
+  width: 80px;
+
+  margin: 20px;
+  padding: 0;
+
+  border: none;
+  border-radius: 5px;
+
+  font-size: 24px;
+  font-family: "Indie Flower", sans-serif;
+  color: #eee;
+  background: #031196;
+  cursor: pointer;
+}
+
+.lesson-button--secondary {
+  cursor: default;
+  background: #c4c4c4;
+}

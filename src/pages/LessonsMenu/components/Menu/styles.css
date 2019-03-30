@@ -1,0 +1,48 @@
+#lesson-menu-heading {
+  text-align: center;
+
+  margin-bottom: 20px;
+}
+
+.lesson-menu-container {
+  display: flex;
+  justify-content: center;
+}
+
+.lesson-menu {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+
+  max-width: 375px;
+  min-width: 210px;
+}
+
+.lesson-menu__list {
+  height: 100%;
+  width: 100%;
+}
+
+.lesson-menu__item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 50px;
+
+  padding-left: 40px;
+}
+
+.lesson-menu__icon {
+  position: absolute;
+  right: 20px;
+
+  /* Material design guideline */
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.lesson-menu__icon--complete {
+  color: green;
+}

@@ -1,0 +1,33 @@
+.input {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input__icon {
+  position: absolute;
+  margin-left: 10px;
+  pointer-events: none;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.input__input {
+  height: 40px;
+  padding: 5px 10px;
+
+  border-radius: 3px;
+  border: 1px solid #ddd;
+
+  font-family: "Indie Flower", sans-serif;
+  font-size: 20px;
+}
+
+.input__input:focus {
+  /* TODO: Global CSS no input focus styling */
+  outline: none;
+  border: 1px solid #374afb;
+}
+
+.input__input--with_padding {
+  padding-left: 40px;
+}

@@ -1,0 +1,7 @@
+.lesson-page__buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+
+  padding: 0 80px;
+}

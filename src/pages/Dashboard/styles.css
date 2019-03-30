@@ -1,0 +1,24 @@
+.dashboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+  width: 100%;
+}
+
+.progress-bar__container {
+  display: block;
+  height: 300px;
+  width: 300px;
+}
+
+.progress-bar__label {
+  display: block;
+  padding: 20px;
+
+  color: #031196;
+
+  text-align: center;
+  font-size: 26px;
+}
