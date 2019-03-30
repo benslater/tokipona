@@ -1,0 +1,14 @@
+.lesson-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 0 20px;
+}
+
+.answer--pass {
+  border: 1px solid green;
+}
+
+.answer--fail {
+  border: 1px solid red;
+}

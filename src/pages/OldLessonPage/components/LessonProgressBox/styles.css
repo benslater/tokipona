@@ -1,0 +1,25 @@
+.lesson-progress-box {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  font-size: 24px;
+  background: #c4c4c4;
+}
+
+.lesson-progress-box a {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #fafafa;
+}
+
+.lesson-progress-box.complete {
+  background: #031196;
+}
+
+.lesson-progress-box.current {
+  background: #52b650;
+}

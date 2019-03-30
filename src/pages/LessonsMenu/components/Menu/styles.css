@@ -1,0 +1,30 @@
+#lesson-menu-heading {
+  text-align: center;
+
+  margin-bottom: 20px;
+}
+
+.lesson-menu {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lesson-menu__list {
+  height: 100%;
+  width: 100%;
+}
+
+.lesson-menu__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 50px;
+
+  text-align: center;
+}
+
+/* .lesson-menu__link {
+} */

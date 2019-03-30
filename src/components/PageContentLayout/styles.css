@@ -1,0 +1,17 @@
+.page-content-layout {
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+
+  padding-left: 200px;
+}
+
+.page-content-layout__children {
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+
+  padding: 20px 80px;
+}

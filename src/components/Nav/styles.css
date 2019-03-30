@@ -1,0 +1,55 @@
+#nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: fixed;
+  height: 100vh;
+  width: 200px;
+
+  padding: 20px 0;
+
+  box-sizing: border-box;
+
+  background: #fffd6f;
+  font-family: "Indie Flower", sans-serif;
+}
+
+#logo {
+  height: 133px;
+  width: 100px;
+}
+
+#nav ul {
+  width: 100%;
+
+  padding: 0;
+  margin: 20px 0 0 0;
+
+  list-style-type: none;
+
+  font-size: 20px;
+
+  color: #031196;
+}
+
+#nav ul li:hover {
+  text-decoration: underline;
+}
+
+#nav ul a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  text-decoration: none;
+  color: #031196;
+}
+
+.nav__auth-button {
+  position: absolute;
+  bottom: 20px;
+
+  width: 150px;
+}
