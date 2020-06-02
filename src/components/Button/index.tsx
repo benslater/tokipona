@@ -13,7 +13,7 @@ export default class Button extends Component<ButtonProps> {
     const { className, onClick, children } = this.props;
     return (
       <button className={classnames("button", className)} onClick={onClick}>
-        {children}
+        <span className="button__text">{children}</span>
       </button>
     );
   }

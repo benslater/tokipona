@@ -10,6 +10,7 @@ import PageContentLayout from "./components/PageContentLayout";
 import Dashboard from "./pages/Dashboard/Dashboard";
 import LessonMenu from "./pages/LessonsMenu/components/Menu";
 import LessonPage from "./pages/LessonPage/LessonPage";
+import Dictionary from "./pages/Dictionary/Dictionary";
 
 import { initialiseFirebase } from "./utils/firebaseUtils";
 import uiConfig from "./utils/firebaseUiConfig";
@@ -48,6 +49,7 @@ class App extends Component {
               <Route exact path="/" component={Dashboard} />
               <Route exact path="/lessons" component={LessonMenu} />
               <Route path="/lessons/:id" component={LessonPage} />
+              <Route path="/dictionary/" component={Dictionary} />
               <Route path="/login/" component={authUi} />
             </PageContentLayout>
           </>

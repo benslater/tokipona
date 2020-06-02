@@ -26,7 +26,10 @@ export class Nav extends Component<RouteComponentProps> {
   };
 
   render() {
-    const authText = !!firebase.auth().currentUser ? "Log Out" : "Log In";
+    const user = firebase.auth().currentUser;
+    const userName = user && user.displayName;
+    const authButtonText = !!user ? "Log Out" : "Log In";
+    const authGreeting = userName ? <span>Hello, {userName}!</span> : null;
 
     // TODO: eased drop shadow on hover, underline for current page
 
@@ -47,9 +50,12 @@ export class Nav extends Component<RouteComponentProps> {
               <Link to="/glyphs">Glyphs</Link>
             </li>
           </ul>
-          <Button className="nav__auth-button" onClick={this.handleAuthClick}>
-            {authText}
-          </Button>
+          <div className="nav__auth">
+            {authGreeting}
+            <Button className="nav__auth-button" onClick={this.handleAuthClick}>
+              {authButtonText}
+            </Button>
+          </div>
         </Card>
       </nav>
     );

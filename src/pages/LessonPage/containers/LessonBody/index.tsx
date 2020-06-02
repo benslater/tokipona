@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import classnames from "classnames";
 
+import Input from "../../../../components/Input";
+
 import { UpdateAnswer } from "../../actions";
 
 import mapClass from "../../utils/mapAnswerStateToClass";
@@ -25,7 +27,7 @@ export default class LessonBody extends Component<LessonBodyProps> {
     // TODO: Massively extract into components
 
     return (
-      <div>
+      <div className="lesson-body">
         <div className="lesson-body__text">
           <h1 className="lesson-body__title">{title}</h1>
           {paragraphs &&
@@ -56,7 +58,7 @@ export default class LessonBody extends Component<LessonBodyProps> {
                 >
                   {text}
                 </p>
-                <input
+                <Input
                   key={`question-input-${index}`}
                   className={classnames(
                     "lesson-body__question-input",

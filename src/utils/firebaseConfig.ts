@@ -1,8 +1,10 @@
+import { apiKey, authDomain, databaseURL, projectId } from "./firebaseSecrets";
+
 export default {
-  apiKey: "AIzaSyBuHwYIDA64XymgD0D3oxhDrZmXIIrMZI4",
-  authDomain: "toki-pona-6f7ec.firebaseapp.com",
-  databaseURL: "https://toki-pona-6f7ec.firebaseio.com",
-  projectId: "toki-pona-6f7ec",
+  apiKey,
+  authDomain,
+  databaseURL,
+  projectId,
   storageBucket: "",
-  messagingSenderId: "1055208778286"
+  messagingSenderId: "1055208778286",
 };

@@ -135,6 +135,7 @@ export class LessonPage extends Component<LessonPageProps> {
     const { paragraphs, questions, answers, updateAnswer } = this.props;
     return (
       <>
+        {/* TODO: Loading state for here as well as rest of app */}
         <LessonBody
           title="getTitle"
           paragraphs={paragraphs}

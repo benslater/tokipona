@@ -11,8 +11,8 @@
 
   box-sizing: border-box;
 
+  color: #031196;
   background: #fffd6f;
-  font-family: "Indie Flower", sans-serif;
 }
 
 #logo {
@@ -29,7 +29,10 @@
   list-style-type: none;
 
   font-size: 20px;
+}
 
+#nav span {
+  /* TODO: Find why reset.css is overriding inheritance from nav */
   color: #031196;
 }
 
@@ -47,9 +50,23 @@
   color: #031196;
 }
 
-.nav__auth-button {
+.nav__auth {
   position: absolute;
   bottom: 20px;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   width: 150px;
+}
+
+.nav__auth-button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* TODO: Remove after fixing span problem above */
+#nav .nav__auth-button span {
+  color: #eee;
 }
