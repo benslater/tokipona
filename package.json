@@ -19,7 +19,7 @@
     "firebase": "^5.8.0",
     "firebaseui": "^3.5.2",
     "lodash": "^4.17.11",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.1",
     "react": "^16.7.0",
     "react-circular-progressbar": "^1.0.0",
     "react-dom": "^16.7.0",
